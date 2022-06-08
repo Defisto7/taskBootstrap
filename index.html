@@ -19,7 +19,7 @@
     <div class="container">
       <div class="first row justify-content-start">
         <div class="col-6" action="#">
-          <img class="img" src="https://bipbap.ru/wp-content/uploads/2017/04/2-8.jpg" alt="picture">
+          <img class="img" src="https://ichef.bbci.co.uk/news/999/cpsprodpb/15951/production/_117310488_16.jpg" alt="picture">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ex inventore iusto laboriosam, rerum
             aliquam optio mollitia error sequi nihil unde quidem consequatur voluptatum asperiores fugiat, nam quisquam
             molestias temporibus.</p>
@@ -28,13 +28,13 @@
         <form action="#" name="form" id="form" class="col-6">
           <div>
             <label>Имя</label>
-            <input class="form-control" name="first_name" type="text" id="name" data-reg="^[A-ЯЁ][a-яё]{1,20}$"
+            <input class="form-control" name="first_name" type="text" id="name" data-reg="^[a-z0-9а-яё;]{2,20}$"
               placeholder="Введите ваше имя" required>
             <div style="color: red;"></div>
           </div>
           <div>
             <label>Фамилия</label>
-            <input class="form-control" id="lastas_name" name="lastas_name" type="text" data-reg="^[A-ЯЁ][a-яё]{1,20}$"
+            <input class="form-control" id="lastas_name" name="lastas_name" type="text" data-reg="^[a-z0-9а-яё;]{2,20}$"
               placeholder="Введите вашу фамилию" required>
             <div style="color: red;"></div>
           </div>
@@ -57,7 +57,7 @@
               </div>
               <div class="col-7">
                 <input class="form-control" id="phone" name="phone" type="number" placeholder="Введите телефон"
-                  data-reg="^[0-9]{7}$" required>
+                  data-reg="^[0-9]{9}$" required>
                 <div style="color: red;"></div>
               </div>
             </div>
